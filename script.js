@@ -94,24 +94,24 @@ const nameInput = document.getElementById('studentName').value;
     document.getElementById('pId').innerText =
         document.getElementById('studentId').value;
 
-   const sectionValue =
-    document.getElementById('section').value;
+   const yearValue =
+    document.getElementById('year').value;
 
-const pSectionRow =
-    document.getElementById('pSectionRow');
+const pYearRow =
+    document.getElementById('pYearRow');
 
-if(sectionValue !== ""){
+if(yearValue !== ""){
 
-    document.getElementById('pSection').innerText =
-        sectionValue;
+    document.getElementById('pYear').innerText =
+        yearValue;
 
-    pSectionRow.style.display = 'block';
+    pYearRow.style.display = 'block';
 
 }
 
 else{
 
-    pSectionRow.style.display = 'none';
+    pYearRow.style.display = 'none';
 
 }
 
