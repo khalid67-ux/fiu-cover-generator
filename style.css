@@ -173,7 +173,7 @@ select:focus {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 12px;
     color: #444;
 }
 
@@ -185,4 +185,13 @@ select:focus {
 
 .footer-credit a:hover{
     text-decoration: underline;
+}
+
+@media (max-width: 768px){
+
+    .footer-credit{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
 }
